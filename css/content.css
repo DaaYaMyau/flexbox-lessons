@@ -1,0 +1,104 @@
+.container{
+    width: 100%;
+    background: lemonchiffon;
+    display: flex;
+    justify-content: center; /*выравниваем коробочки по центру*/
+}
+
+.unit{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background: blue;
+    color: lemonchiffon;
+    margin: 1%;
+    text-align: center;
+    line-height: 50px;
+}
+
+.boxes{
+    width: 100%;
+    background: lemonchiffon;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.its{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background: rgb(238, 0, 255);
+    color: lemonchiffon;
+    margin: 1%;
+    text-align: center;
+    line-height: 50px; /*высота текста*/
+}
+
+.start{
+    width: 100%;
+    background: lemonchiffon;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cvark{
+    width: 100%;
+    background: lemonchiffon;
+    display: flex;
+    justify-content: space-around;
+}
+
+.colorone{
+    width: 100%;
+    background: lemonchiffon;
+    display: flex;
+    justify-content: space-between;
+}
+
+.matreshka{
+    width: 70%;
+    height: 500px;
+    margin: 100px auto;
+    border: 3px solid palevioletred;
+    background: cornsilk;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ematreshka{
+    width: 90%;
+    height: 300px;
+    border: 3px solid rgb(97, 53, 255);
+    background: rgb(50, 255, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.esmatreshka{
+    width: 90%;
+    height: 200px;
+    border: 3px solid rgb(241, 14, 146);
+    background: rgb(255, 12, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eshmatreshka{
+    width: 90%;
+    height: 100px;
+    border: 3px solid rgb(255, 223, 129);
+    background: rgb(255, 244, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.babymatreshka{
+    width: 90%;
+    height: 50px;
+    border: 3px solid rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+}
